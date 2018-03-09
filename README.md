@@ -4,7 +4,8 @@
 
 https://git-scm.com/download/win
 
-### Jenkins User + Password
+### Jenkins
 
-admin
-y5sqV4OyqN
+- Url: 35.226.125.153:8080
+- User: admin
+- Pass: y5sqV4OyqN
