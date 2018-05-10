@@ -9,3 +9,7 @@ api-tests:
 web-tests:
 	docker build -t alarmareloj .
 	docker run -t alarmareloj rspec tests/web_tests.rb
+
+cucumber:
+	docker build -t alarmareloj .
+	docker run -t alarmareloj cucumber
