@@ -1,8 +1,8 @@
 require 'airborne'
 
 describe 'reloj api' do
-  it 'retorna si debe sonar o no la alarma' do
+  it 'retorna si la alarma esta sonando' do
     get 'https://relojdespertador.herokuapp.com/api/alarma/sonar?hora-alarma=07:20&hora-actual=07:19'
-    expect_json(sonar: true)
+    expect_json(sonar: false)
   end
 end
